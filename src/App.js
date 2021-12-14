@@ -6,8 +6,11 @@ import Header from './Components/Header';
 import Content from './Components/Content';
 import Aside from './Components/Aside';
 import Footer from './Components/Footer';
+import MouseMoove from './Components/MouseMoove';
+import Figure from './Components/Figure'
+import Accordion from './Components/Accordion';
 
-
+ 
 
 
 function App() {
@@ -22,7 +25,7 @@ function App() {
        <CreatImput></CreatImput>
       </div> */}
 
-      <div className="Wrapper">
+      {/* <div className="Wrapper">
           <Header></Header>
           <div className= "container">
             <div className= "content">
@@ -32,8 +35,10 @@ function App() {
             <Footer></Footer>
           </div>
             
-      </div>
-
+      </div> */}
+       {/* <MouseMoove></MouseMoove> */}
+       <Figure></Figure>
+       <Accordion></Accordion>
 
     </>
   );
